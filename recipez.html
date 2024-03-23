@@ -16,18 +16,45 @@
    <body>
     <header> <div class="logo">Recipez</div>
       <form>
-        <div class="search">
-          <i class="fas fa-search" id="iconsearch"></i>
-          <input type="search" class="input" placeholder="Search recipes or Ingredients">
-        </div>
+       
+        
       </form>
+      
+      </div>
       
 
       <div id="icons">
         <a href="#" class="fas fa-home" id="home"></a> 
         <a href="#"  class="fas fa-heart" id="heart"></a> 
-        <a href="#" class="fas fa-user" id="log"></a> 
-       
+        <a href="#" class="fas fa-user" id="log" onclick="showlog()"></a>
+    
+      <div class="container3" id="form">
+        <input type="checkbox" id="show" hidden onclick="leave2()">
+        <label for="show" class="close-btn fas fa-times" title="close" id="closelog"></label>
+        <div class="text">
+           Login Form
+        </div>
+        <form action="#">
+           <div class="data">
+              <label>Email or Phone</label>
+              <input type="text" required>
+           </div>
+           <div class="data">
+              <label>Password</label>
+              <input type="password" required>
+           </div>
+           <div class="forgot-pass">
+              <a href="#">Forgot Password?</a>
+           </div>
+           <div class="btn">
+              <div class="inner"></div>
+              <button type="submit">login</button>
+           </div>
+           <div class="signup-link">
+              Not a member? <a href="#">Signup now</a>
+           </div>
+        </form>
+     </div>
 
      </div></header>
       <div class="wrapper">
@@ -246,10 +273,13 @@
               </div>
            </ul>
         </nav>
-     </div>
+     </div> 
+    
+        
+     
      <br><br><br><br><br><br><br><br><br><br>
 
-      <div class="content">
+      <div class="content" id="r1">
          <div class="intro">
            <h2 id="h2"> Recipez</h2>
            <p> Don't know what to cook ? we are here to help </p>
@@ -394,7 +424,7 @@
                 </h4>
                 <div class="column"id="column">
                   <img  src="couscous.jpeg" id="img1" >
-                  <figcaption><a  class="caption" href="Couscous.html">Lamb Couscous</a> </figcaption>
+                  <figcaption><a  class="caption" href="Couscous.jpeg">Lamb Couscous</a> </figcaption>
                 </div>
                 <div class="column"id="column">
                   <img  src="Oija.jpeg" id="img2" >
@@ -434,8 +464,11 @@
            
         </div>
         </div>
+    <div id="r2">
 
-
+    </div>
+       
+          </div>
 
 
     
