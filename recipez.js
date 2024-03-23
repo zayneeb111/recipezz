@@ -36,3 +36,19 @@ const initslider=()=>{
 
 }  
 window.addEventListener("load",initslider)
+
+
+
+function showlog(){
+    f=document.getElementById('form')
+    f.style.display='block'
+}
+
+function leave2(){
+
+    y=document.getElementById("form");
+    
+    y.style.display='none'
+   
+
+}
